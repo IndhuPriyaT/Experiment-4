@@ -14,7 +14,23 @@
 9. Stop the program. 
 
 # Program
+```
+num = int(input("Enter a number: "))
+num_str = str(num)
+power = len(num_str)
+armstrong_sum = sum(int(digit) ** power for digit in num_str)
+if num == armstrong_sum:
+    print(num, "is an Armstrong number.")
+else:
+    print(num, "is not an Armstrong number.")
+```
 
 # Output
+<img width="326" height="62" alt="image" src="https://github.com/user-attachments/assets/72db9da9-4bd7-4f1d-9fb6-1270f19fd0e1" />
+
+<img width="280" height="50" alt="image" src="https://github.com/user-attachments/assets/bfdb5ee7-4daa-4a46-a026-71a08231ec04" />
+
+
 
 # Result
+Thus, the python program to check the number is Armstrong number or not implemented and the output is verified successfully.
